@@ -22,4 +22,4 @@ import { sqrt } from "./square-root";
 // console.log(kthSmallestDistance([1,3,1], 1));
 // console.log(splitArrayLargestSum([1,2,3,4,5], 2));
 // console.log(findDuplicate([1,3,2,4,2]));
-console.log(medianOf2SortedArrays([1,3], [2,4]));
+// console.log(medianOf2SortedArrays([1,3], [2,4]));
