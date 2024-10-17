@@ -7,6 +7,7 @@ import './src/problems/sliding-window'; //sliding window
 import './src/problems/stack'; // stack
 import './src/problems/backtracking'; // backtracking
 import './src/problems/binary-search'; // binary search
+import './src/problems/linked-list'; //linked list
 
 // algorithms
 import './src/algorithms';
