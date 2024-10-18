@@ -12,4 +12,4 @@ import { TrieWithWildcard } from "./trie-search-with-wildcard";
 // trie.addWord('dad');
 // trie.addWord('mad');
 // trie.addWord('pad');
-// console.log(trie.search('bad'), trie.search('....'));
+// console.log(trie.search('b..'), trie.search('....'));

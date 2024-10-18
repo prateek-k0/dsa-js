@@ -9,6 +9,7 @@ import './src/problems/backtracking'; // backtracking
 import './src/problems/binary-search'; // binary search
 import './src/problems/linked-list'; //linked list
 import './src/problems/trie'; // trie
+import './src/problems/trees'; // trees
 
 // algorithms
 import './src/algorithms';
