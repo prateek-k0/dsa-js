@@ -1,5 +1,3 @@
-// https://leetcode.com/problems/binary-tree-right-side-view/
-
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -12,7 +10,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-export function rightSideView(root) {
+export function leftSideView(root) {
     if(root === null) return []
     const levelOrder = [];
     const bfsQueue = [[root]];
@@ -26,5 +24,5 @@ export function rightSideView(root) {
         levelOrder.push(currentLevel);
         if(nextLevel.length > 0) bfsQueue.push(nextLevel);
     }
-    return levelOrder.map(l => l[l.length - 1].val);    // right view = last node at each level
+    return levelOrder.map(l => l[0].val);   // left view = 1st node at each level
 };
