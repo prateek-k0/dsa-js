@@ -18,4 +18,4 @@ import { wordSearch } from "./word-search";
 // console.log(generatePermutationsWithDuplicates([1,1,2]))
 // console.log(palindromicPartitioning('aab'));
 // console.log(letterCombinations('23'));
-console.log(wordSearch([["a","a","a"],["A","A","A"],["a","a","a"]], 'aAaaaAaaA'))
+// console.log(wordSearch([["a","a","a"],["A","A","A"],["a","a","a"]], 'aAaaaAaaA'))

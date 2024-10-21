@@ -24,7 +24,7 @@
  */
 
 function partition(arr, l, r) {
-    const pivot = r;   // last element;
+    const pivot = r;   // last element; for ascending sort, pick l
     let i = l;
     for(let j = l; j <= r; j++) {
         if(arr[j] > arr[pivot]) { // descending
