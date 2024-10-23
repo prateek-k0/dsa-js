@@ -11,7 +11,10 @@ import './src/problems/linked-list'; //linked list
 import './src/problems/trie'; // trie
 import './src/problems/trees'; // trees
 import './src/problems/heap-and-pq'; // heap and priority queue
-import './src/problems/intervals';
+import './src/problems/intervals';  // intervals and line sweep
+import './src/problems/greedy';
+
+import './src/problems/divide-and-conquer'; // divide and conquer;
 
 // algorithms
 import './src/algorithms';
