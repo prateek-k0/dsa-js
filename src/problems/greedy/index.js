@@ -6,4 +6,4 @@ import { partitionString } from "./partition-string";
 // console.log(maxSubarraySum([-2,1,-3,4,-1,2,1,-5,4]));
 // console.log(jumpGame([2,3,1,1,4]));
 // console.log(gasStation([5,1,2,3,4], [4,4,1,5,1]));
-console.log(partitionString('ababcbacadefegdehijhklij'));
+// console.log(partitionString('ababcbacadefegdehijhklij'));
