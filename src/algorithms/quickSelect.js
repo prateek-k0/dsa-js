@@ -15,6 +15,9 @@
 // Problem statement: find kth largest element
 // for kth largest, we need to write the partitioning algo such that it sorts descendingly
 
+// Lomuto partition scheme. https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme
+// used rather than Hoare partition scheme, since after partitioning, the position of the pivot is fixed
+
 /**
  * 
  * @param {number[]} arr 
@@ -22,11 +25,10 @@
  * @param {number} r
  * @returns {number}
  */
-
 function partition(arr, l, r) {
-    const pivot = r;   // last element; for ascending sort, pick l
+    const pivot = r;   // last element
     let i = l;
-    for(let j = l; j <= r; j++) {
+    for(let j = l; j < r; j++) {   // can also write j <= r
         if(arr[j] > arr[pivot]) { // descending
             [arr[i], arr[j]] = [arr[j], arr[i]];
             i++;
