@@ -7,6 +7,7 @@ import { generateSubsets } from "./generate-subsets";
 import { generateSubsetsWithoutDuplicates } from "./generate-subsets-without-duplicates";
 import { letterCombinations } from "./letter-combo-phone-keypad";
 import { palindromicPartitioning } from "./palindromic-partitions";
+import { findItinerary } from "./reconstruct-itinerary";
 import { wordSearch } from "./word-search";
 
 // console.log(generateParentheses(3));
@@ -19,3 +20,4 @@ import { wordSearch } from "./word-search";
 // console.log(palindromicPartitioning('aab'));
 // console.log(letterCombinations('23'));
 // console.log(wordSearch([["a","a","a"],["A","A","A"],["a","a","a"]], 'aAaaaAaaA'))
+console.log(findItinerary([["EZE","AXA"],["TIA","ANU"],["ANU","JFK"],["JFK","ANU"],["ANU","EZE"],["TIA","ANU"],["AXA","TIA"],["TIA","JFK"],["ANU","TIA"],["JFK","TIA"]]))
