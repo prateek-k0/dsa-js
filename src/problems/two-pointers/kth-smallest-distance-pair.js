@@ -13,7 +13,7 @@
 
     https://leetcode.com/problems/find-k-th-smallest-pair-distance/solutions/5632765/o-n-log-n-n-log-w-binary-search-sliding-window-java-c-python-go-rust-javascript/
 */
-function countPairsLessThanDistance(arr, distance) {
+function countPairsLessThanDifference(arr, distance) {
     let l = 0;
     let pairs = 0;
     for(let r = 1; r < arr.length; r++) {
@@ -33,7 +33,7 @@ export function kthSmallestDistance(arr, k) {
     let res = 0;
     while(l <= r) {
         m = Math.floor((l + r) / 2);
-        if(countPairsLessThanDistance(arr, m) >= k) {
+        if(countPairsLessThanDifference(arr, m) >= k) {
             res = m;
             r = m - 1;
         } else {

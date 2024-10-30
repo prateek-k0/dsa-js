@@ -1,10 +1,12 @@
 import { findDuplicate } from "../arrays-and-hashing/find-duplicate";
 import { binarySearch } from "./binary-search-intro";
+import { findClosestElementInArray } from "./closest-element-in-array";
 import { findPeakElement } from "./find-peak-element";
 import { kokoBananas } from "./koko-bananas";
 import { kthSmallestDistance } from "./kth-smallest-distance-pair";
 import { medianOf2SortedArrays } from "./median-of-2-sorted-arrays";
 import { minimumInRotated } from "./minimum-in-rotated-sorted-array";
+import { minSessionsToCompleteWork } from "./number-of-sessions-to-complete-work";
 import { pow } from "./power-function";
 import { searchInRotatedArray } from "./search-in-rotated-sorted-array";
 import { matrixSearch } from "./search-in-row-column-sorted-matrix";
@@ -23,3 +25,5 @@ import { sqrt } from "./square-root";
 // console.log(splitArrayLargestSum([1,2,3,4,5], 2));
 // console.log(findDuplicate([1,3,2,4,2]));
 // console.log(medianOf2SortedArrays([1,3], [2,4]));
+// console.log(minSessionsToCompleteWork([1,2,3], 3));
+console.log(findClosestElementInArray([0,0,1,2,3,3,4,7,7,8], 5));

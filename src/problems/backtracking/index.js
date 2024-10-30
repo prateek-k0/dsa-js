@@ -20,4 +20,5 @@ import { wordSearch } from "./word-search";
 // console.log(palindromicPartitioning('aab'));
 // console.log(letterCombinations('23'));
 // console.log(wordSearch([["a","a","a"],["A","A","A"],["a","a","a"]], 'aAaaaAaaA'))
-console.log(findItinerary([["EZE","AXA"],["TIA","ANU"],["ANU","JFK"],["JFK","ANU"],["ANU","EZE"],["TIA","ANU"],["AXA","TIA"],["TIA","JFK"],["ANU","TIA"],["JFK","TIA"]]))
+// console.log(findItinerary([["EZE","AXA"],["TIA","ANU"],["ANU","JFK"],["JFK","ANU"],["ANU","EZE"],["TIA","ANU"],["AXA","TIA"],["TIA","JFK"],["ANU","TIA"],["JFK","TIA"]]))
+// console.log(minSessionsToCompleteWork([1,2,3], 3));

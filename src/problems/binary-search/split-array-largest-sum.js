@@ -39,7 +39,7 @@ export function splitArrayLargestSum(arr, k) {
     let res = 0;
     while(l <= r) {
         m = Math.floor((l + r) / 2);
-        if(countNumberOfSegmentsWithSum(arr, m) <= k) { // number of parts is less, then decrease the sum
+        if(countNumberOfSegmentsWithSum(arr, m) <= k) { // number of parts is less or equal, then reduce the sum
             r = m-1;
             res = m;
         } else {
