@@ -1,5 +1,6 @@
 import { containerWithMostWater } from "./container-with-most-water";
 import { findClosestElements } from "./k-closest-elements-in-array";
+import { kSmallestPairs } from "./k-smallest-pairs";
 import { kthSmallestMatrix } from "./kth-element-sorted-matrix";
 import { kthSmallestDistance } from "./kth-smallest-distance-pair";
 import { longestPalindrome } from "./longest-palindromic-subsequence";
@@ -16,3 +17,4 @@ import { validPalindrome } from "./valid-palindrome";
 // console.log(kthSmallestMatrix([[1,5,9],[10,11,13],[12,13,15]], 8));
 // console.log(kthSmallestDistance([1,6,1], 2));
 // console.log(findClosestElements([0,0,1,2,3,3,4,7,7,8], 3, 5));
+// console.log(kSmallestPairs([1,2,4,5,6], [3,5,7,9], 3));

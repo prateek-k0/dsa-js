@@ -1,6 +1,8 @@
 import { kClosest } from "./k-closest-points";
+import { kSmallestPairs } from "./k-smallest-pairs";
 import { findKthLargest } from "./kth-largest-element";
 import { KthLargest } from "./kth-largest-in-a-stream";
+import { kthSmallestSumOfMatrix } from "./kth-smallest-sum-in-row-sorted-matrix";
 import { lastStoneWeight } from "./last-stone-weight";
 
 
@@ -11,3 +13,5 @@ import { lastStoneWeight } from "./last-stone-weight";
 // console.log(lastStoneWeight([2,7,4,1,8,1]));
 // console.log(kClosest([[3,3],[5,-1],[-2,4]], 2));
 // console.log(findKthLargest([3,2,1,5,6,4], 2))
+// console.log(kSmallestPairs([1,2,4,5,6], [3,5,7,9], 3));
+// console.log(kthSmallestSumOfMatrix([[1,3,11],[2,4,6]], 9))
