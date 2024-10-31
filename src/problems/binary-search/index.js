@@ -5,6 +5,7 @@ import { findPeakElement } from "./find-peak-element";
 import { kSmallestPairs } from "./k-smallest-pairs";
 import { kokoBananas } from "./koko-bananas";
 import { kthSmallestDistance } from "./kth-smallest-distance-pair";
+import { kthSmallestSumOfMatrix } from "./kth-smallest-sum-in-row-sorted-matrix";
 import { medianOf2SortedArrays } from "./median-of-2-sorted-arrays";
 import { minimizeTheMaxDifference } from "./minimize-the-max-difference";
 import { minimumInRotated } from "./minimum-in-rotated-sorted-array";
@@ -31,3 +32,4 @@ import { sqrt } from "./square-root";
 // console.log(findClosestElementInArray([0,0,1,2,3,3,4,7,7,8], 5));
 // console.log(kSmallestPairs([1,2,4,5,6], [3,5,7,9], 3));
 // console.log(minimizeTheMaxDifference([4,2,1,2], 1));
+console.log(kthSmallestSumOfMatrix([[1,10,10],[1,4,5],[2,3,6]], 7))
