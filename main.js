@@ -12,7 +12,8 @@ import './src/problems/trie'; // trie
 import './src/problems/trees'; // trees
 import './src/problems/heap-and-pq'; // heap and priority queue
 import './src/problems/intervals';  // intervals and line sweep
-import './src/problems/greedy';
+import './src/problems/greedy'; // greedy
+import './src/problems/prefix-operation'; // array prefix operations
 
 import './src/problems/divide-and-conquer'; // divide and conquer;
 
