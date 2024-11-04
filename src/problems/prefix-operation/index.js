@@ -2,7 +2,7 @@ import { subarraySumEqualsK } from "./subarray-sum-equals-k";
 import { trappedRainWater } from "./trapping-rain-water";
 
 // console.log(trappedRainWater([4,2,0,3,2,5]));
-console.log(subarraySumEqualsK([1,2,3], 3));
+// console.log(subarraySumEqualsK([1,2,3], 3));
 
 /*
     let's generalize the characteristics of the problems that can be solved by two pinters and sliding window:
@@ -10,7 +10,7 @@ console.log(subarraySumEqualsK([1,2,3], 3));
     1. If a wider scope of the sliding window is valid, the narrower scope of that wider scope is valid mush hold.
     2. If a narrower scope of the sliding window is invalid, the wider scope of that narrower scope is invalid mush hold.
 
-    for other problems related to subarray, use prefix sums
+    for other problems related to subarray, use prefix sums (or other operations)
 
 
     General template:
