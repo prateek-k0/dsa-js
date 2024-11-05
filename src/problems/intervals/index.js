@@ -1,3 +1,5 @@
+// https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+
 import { insertInterval } from "./insert-interval";
 import { maximumPopulationYear } from "./maximum-population-year";
 import { MeetingRoom2_LS } from "./meeting-rooms-2-line-sweep";
