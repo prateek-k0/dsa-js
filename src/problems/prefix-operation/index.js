@@ -11,6 +11,7 @@ import { matrixBlockSum } from "./matrix-block-sum";
 import { minOperationsToReduceXToZero } from "./minimum-operations-to-reduce-to-0";
 import { countNiceSubarrays } from "./nice-subarrays";
 import { RangeSumQuery2D } from "./range-sum-query-2d";
+import { splitArrayMinDiff } from "./split-array-minimum-difference";
 import { subarraySumEqualsK } from "./subarray-sum-equals-k";
 import { subarraySumsDivisibleByK } from "./subarray-sums-divisible-by-k";
 import { trappedRainWater } from "./trapping-rain-water";
@@ -28,7 +29,8 @@ import { trappedRainWater } from "./trapping-rain-water";
 // console.log(countInterestingSubarrays([3,2,4], 2, 1));
 // console.log(countTriplets([1,1,1,1,1]));
 // const rsq2D = new RangeSumQuery2D([[3,0,1,4,2], [5,6,3,2,1], [1,2,0,1,5], [4,1,0,1,7], [1,0,3,0,5]]);
-console.log(matrixBlockSum([[1,2,3],[4,5,6],[7,8,9]], 2));
+// console.log(matrixBlockSum([[1,2,3],[4,5,6],[7,8,9]], 2));
+// console.log(splitArrayMinDiff([1,1,1,1,1,1,1,1,2]));
 
 /*
     let's generalize the characteristics of the problems that can be solved by two pinters and sliding window:
