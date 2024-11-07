@@ -46,6 +46,10 @@ function binPowRecursive(a, n) {
 
 // implementation - iterative
 function binPowIterative(a, n) {
+    if(n < 0) {
+        a = 1/a;    // reciprocal
+        n = -n; // convert to positive
+    };
     let res = 1;
     if (n === 0) return 1;
     while (n > 0) {
