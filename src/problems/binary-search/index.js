@@ -2,6 +2,7 @@
 
 import { findDuplicate } from "../arrays-and-hashing/find-duplicate";
 import { binarySearch } from "./binary-search-intro";
+import { bisectLeft, bisectRight } from "./bisect-functions";
 import { findClosestElementInArray } from "./closest-element-in-array";
 import { findPeakElement } from "./find-peak-element";
 import { kSmallestPairs } from "./k-smallest-pairs";
@@ -35,3 +36,5 @@ import { sqrt } from "./square-root";
 // console.log(kSmallestPairs([1,2,4,5,6], [3,5,7,9], 3));
 // console.log(minimizeTheMaxDifference([4,2,1,2], 1));
 // console.log(kthSmallestSumOfMatrix([[1,10,10],[1,4,5],[2,3,6]], 7));
+// console.log(bisectLeft([1,2,3,4,5,5,5,5,8], 5));
+// console.log(bisectRight([1,2,3,4,5,5,5,5,8], 5));
