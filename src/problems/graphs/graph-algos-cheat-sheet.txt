@@ -1,0 +1,7 @@
+Single Source Shortest Path (for unweighted edges): BFS
+Single Source Shortest Path for weighted edges (positive weights only): Dijkstra's (shortest path tree)
+Single Source Shortest Path for weighted edges (positive and negative weights): Bellman Ford, SPFA
+All source Shortest Path: Floyd Warshall
+
+Learning Sources: 
+Dijkstra: https://www.youtube.com/watch?v=Gd92jSu_cZk&ab_channel=GateSmashers

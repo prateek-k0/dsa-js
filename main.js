@@ -15,6 +15,7 @@ import './src/problems/intervals';  // intervals and line sweep
 import './src/problems/greedy'; // greedy
 import './src/problems/prefix-operation'; // array prefix operations
 import './src/problems/math'; // math problems
+import './src/problems/graphs'; // graphs
 
 import './src/problems/divide-and-conquer'; // divide and conquer;
 
