@@ -2,7 +2,7 @@
 
 /*
     Use 0-1 BFS,
-    use deque made with linked list, else it will lead to tle, since m*n <= 10^5;
+    use deque made with linked list, else it will lead to TLE, since m*n <= 10^5;
 */
 class ListNode {
     constructor(val) {

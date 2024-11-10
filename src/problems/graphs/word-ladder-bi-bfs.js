@@ -35,7 +35,7 @@ export function wordLadderBiBFS(beginWord, endWord, wordList) {
     const q2 = [endWord];   // queue for bfs from end word;
     const v1 = { [beginWord]: true };  // visited 1, set visited of start word as true
     const v2 = { [endWord]: true };  // visited 2;, set visited of end word as true
-    let steps = 1;  // steps to calculate the total number of times the queues were advanced, to calculate distane between start and end
+    let steps = 1;  // no of levels visited to reach the answer, includes visiting from bosth sides
     
     // advance bfs level by level
     const advanceBFSByLevel = (queue, visited1, visited2) => {
