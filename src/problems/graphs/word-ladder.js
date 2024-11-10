@@ -4,7 +4,7 @@
 
 /*
     We can use BFS for this
-    At every iteration, we need to find out words that are 1 distance apart
+    At every iteration, we need to find out words that are 1 distance apart, and push them as neighbours
     beginWord, endWord, and all words in wordList have the same length
 
     Time Complexity: O((m*n) ^ 2), since we are checking every word for distance during 

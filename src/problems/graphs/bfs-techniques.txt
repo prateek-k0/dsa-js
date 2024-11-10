@@ -1,0 +1,17 @@
+https://leetcode.com/discuss/study-guide/1833581/bfs-and-its-variations
+
+
+Why BFS always found shortest path:
+The very first time a node is discovered (unvisited node), its distance from the root node will always be shortest.
+For example we have a root and it has 3 neighbors , root to those neigbors have distance 1 and the same idea applies recursively for all undiscovered node.
+
+Types of BFS: 
+
+Standard BFS
+BFS from borders: starting from the edges of the matrix
+0-1 BFS
+Multi-source BFS
+BFS with Bitmasking/state [revisit same node but with different information ]
+Bidirectional BFS
+
+

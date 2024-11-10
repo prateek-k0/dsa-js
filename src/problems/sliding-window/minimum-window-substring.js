@@ -21,7 +21,6 @@ export function minimumWindowSubstring(s, t) {
     for(let i = 0; i < t.length; i++) {
         tFreqHash[getCharCode(t[i])]++;
     }
-    let minimumSubstring = '';
     let minimumStart = 0;
     let minimumSize = 1e9;
     let found = false;
