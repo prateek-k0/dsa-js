@@ -8,15 +8,15 @@ export function findItinerary(tickets) {
     for(const [source, destination] of tickets) {
         adj[source] = (adj[source] ?? []).concat(destination);
     }
-    // sort each edge in reverse lecixal order, since we'll be traversing them from the end
+    // sort each edge in lexicographic order, so that we'll be picking the destination with smallest lex order
     for(const key in adj) {
-        adj[key].sort((a, b) => a.localeCompare(b)).reverse();
+        adj[key].sort((a, b) => a.localeCompare(b));
     }
     const itinerary = [];
     // dfs - eulerian trail
     const dfs = (node) => {
         while(adj[node] !== undefined && adj[node].length > 0) {
-            const neighbor = adj[node].pop();   // last element will be lexicographically smallest, since we've sorted in reverse
+            const neighbor = adj[node].shift();  
             dfs(neighbor);
         }
         itinerary.push(node);   // postorder

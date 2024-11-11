@@ -1,3 +1,4 @@
+import { openTheLock } from "../binary-search/open-the-lock";
 import { checkIfPathExists } from "./check-if-path-exists";
 import { courseScheduleTopo } from "./course-schedule";
 import { disconnectPathByFlipppingOnce } from "./disconnect-path";
@@ -49,4 +50,5 @@ import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 // console.log(disconnectPathByFlipppingOnce([[1,1,1],[1,0,1],[1,1,1]]));
 // console.log(wordLadderBiBFS('hit', 'cog', ["hot","dot","dog","lot","log","cog"]));
 // console.log(minObstaclesToReachEnd([[0,1,1],[1,1,0],[1,1,0]]));
-console.log(jumpGame4([7,6,9,6,9,6,9,7]));
+// console.log(jumpGame4([7,6,9,6,9,6,9,7]));
+// console.log(openTheLock(["8887","8889","8878","8898","8788","8988","7888","9888"], '8888'));
