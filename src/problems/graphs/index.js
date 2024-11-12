@@ -1,4 +1,5 @@
 import { openTheLock } from "../binary-search/open-the-lock";
+import { cheapestFlightWithAtmostKStops } from "./cheapest-flights-with-atmost-k-stops";
 import { checkIfPathExists } from "./check-if-path-exists";
 import { courseScheduleTopo } from "./course-schedule";
 import { disconnectPathByFlipppingOnce } from "./disconnect-path";
@@ -8,12 +9,14 @@ import { maxIslandArea } from "./max-island-area";
 import { minCostToConnectPrims } from "./min-cost-to-connect-all-points";
 import { minCostToMakeValidPath } from "./min-cost-to-make-valid-path";
 import { minObstaclesToReachEnd } from "./min-obstacles-to-reach-end";
+import { networkDelayTime } from "./network-delay-time";
 import { findIslands } from "./number-of-islands";
 import { pacificAtlanticWaterFlow } from "./pacific-atlantic-water-flow";
 import { findItinerary } from "./reconstruct-itinerary";
 import { rottenOranges } from "./rotten-oranges";
 import { shortestBridge } from "./shortest-bridge";
 import { surroundedRegions } from "./surrounded-regions";
+import { swimInRisingWater, swimInRisingWater2 } from "./swim-in-rising-water";
 import { wordLadder } from "./word-ladder";
 import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 
@@ -53,4 +56,7 @@ import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 // console.log(minObstaclesToReachEnd([[0,1,1],[1,1,0],[1,1,0]]));
 // console.log(jumpGame4([7,6,9,6,9,6,9,7]));
 // console.log(openTheLock(["8887","8889","8878","8898","8788","8988","7888","9888"], '8888'));
-console.log(minCostToConnectPrims([[3,12],[-2,5],[-4,1]]));
+// console.log(minCostToConnectPrims([[3,12],[-2,5],[-4,1]]));
+// console.log(networkDelayTime([[2,1,1],[2,3,1],[3,4,1]], 4, 2));
+// console.log(cheapestFlightWithAtmostKStops(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1))
+// console.log(swimInRisingWater2([[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]))
