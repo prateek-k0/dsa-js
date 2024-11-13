@@ -1,4 +1,5 @@
 import { openTheLock } from "../binary-search/open-the-lock";
+import { alienDict } from "./alien-dictionary";
 import { cheapestFlightWithAtmostKStops } from "./cheapest-flights-with-atmost-k-stops";
 import { checkIfPathExists } from "./check-if-path-exists";
 import { courseScheduleTopo } from "./course-schedule";
@@ -60,3 +61,4 @@ import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 // console.log(networkDelayTime([[2,1,1],[2,3,1],[3,4,1]], 4, 2));
 // console.log(cheapestFlightWithAtmostKStops(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1))
 // console.log(swimInRisingWater2([[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]))
+// console.log(alienDict(["wrt","wrf","er","ett","rftt","te"]));
