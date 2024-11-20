@@ -16,6 +16,7 @@ import './src/problems/greedy'; // greedy
 import './src/problems/prefix-operation'; // array prefix operations
 import './src/problems/math'; // math problems
 import './src/problems/graphs'; // graphs
+import './src/problems/dp-1d';  // dp - 1d
 
 import './src/problems/divide-and-conquer'; // divide and conquer;
 

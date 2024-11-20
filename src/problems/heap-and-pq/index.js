@@ -1,3 +1,4 @@
+import { furthestBuildingReached } from "./bricks-and-ladders";
 import { kClosest } from "./k-closest-points";
 import { kSmallestPairs } from "./k-smallest-pairs";
 import { findKthLargest } from "./kth-largest-element";
@@ -17,3 +18,4 @@ import { lastStoneWeight } from "./last-stone-weight";
 // console.log(kSmallestPairs([1,2,4,5,6], [3,5,7,9], 3));
 // console.log(kthSmallestSumOfMatrix([[1,3,11],[2,4,6]], 9))
 // console.log(kthSmallestInSortedMatrix([[-5]], 1));
+console.log(furthestBuildingReached([4,12,2,7,3,18,20,3,19], 10, 2))

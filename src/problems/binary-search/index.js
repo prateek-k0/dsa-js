@@ -39,4 +39,4 @@ import { sqrt } from "./square-root";
 // console.log(kthSmallestSumOfMatrix([[1,10,10],[1,4,5],[2,3,6]], 7));
 // console.log(bisectLeft([1,2,3,4,5,5,5,5,8], 5));
 // console.log(bisectRight([1,2,3,4,5,5,5,5,8], 5));
-console.log(countFreq([0,0,0,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5], 2));
+// console.log(countFreq([0,0,0,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5], 2));
