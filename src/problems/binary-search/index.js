@@ -41,4 +41,4 @@ import { sqrt } from "./square-root";
 // console.log(bisectLeft([1,2,3,4,5,5,5,5,8], 5));
 // console.log(bisectRight([1,2,3,4,5,5,5,5,8], 5));
 // console.log(countFreq([0,0,0,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5], 2));
-console.log(furthestBuildingReached([4,12,2,7,3,18,20,3,19], 10, 2));
+// console.log(furthestBuildingReached([4,12,2,7,3,18,20,3,19], 10, 2));
