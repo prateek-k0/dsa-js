@@ -2,7 +2,6 @@
 
 /*
     Similar to longest palindromic substrings
-
 */
 
 export function countPalindromicSubstrings(str) {
