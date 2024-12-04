@@ -63,4 +63,4 @@ import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 // console.log(cheapestFlightWithAtmostKStops(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1))
 // console.log(swimInRisingWater2([[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]))
 // console.log(alienDict(["wrt","wrf","er","ett","rftt","te"]));
-console.log(longestIncreasingPathMatrix([[9,9,4],[6,6,8],[2,1,1]]));
+// console.log(longestIncreasingPathMatrix([[9,9,4],[6,6,8],[2,1,1]]));

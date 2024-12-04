@@ -1,6 +1,7 @@
 // https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
 
 import { insertInterval } from "./insert-interval";
+import { longestValidParenthesesSubstrings } from "./longest-valid-parenthesis-substring";
 import { maximumPopulationYear } from "./maximum-population-year";
 import { MeetingRoom2_LS } from "./meeting-rooms-2-line-sweep";
 import { canAttendMeetings } from "./meeting-schedule";
@@ -14,3 +15,4 @@ import { numberOfIntersectingPoints } from "./points-that-intersect-with-cars";
 // console.log(maximumPopulationYear([[1993,1999],[2000,2010]]));
 // console.log(numberOfIntersectingPoints([[3,6],[1,5],[4,7]]));
 // console.log(minIntervalToIncludeQuery([[2,3],[2,5],[1,8],[20,25]], [2,19,5,22]));
+console.log(longestValidParenthesesSubstrings(")()())"));
