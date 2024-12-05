@@ -18,6 +18,7 @@ import './src/problems/math'; // math problems
 import './src/problems/graphs'; // graphs
 import './src/problems/dp-1d';  // dp - 1d
 import './src/problems/dp-2d';  // dp - 2d
+import './src/problems/bit-manipulation';   // bit manipulation
 
 import './src/problems/divide-and-conquer'; // divide and conquer;
 

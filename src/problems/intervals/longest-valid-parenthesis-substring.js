@@ -6,6 +6,11 @@
 
     We can do it with line-sweep / interval merging
     create intervals with the help of a stack
+    the intervals would be of type [start-index, end-index]
+    then, use line-sweep to store lines
+    for any given interval [start, end], line must be stored from
+    start to end + 1, since [s1, e1], [e1 + 1, e2] is overlapping
+    for example, ()() is a valid substring of length 4
 */
 
 export function longestValidParenthesesSubstrings(str) {

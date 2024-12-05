@@ -55,6 +55,7 @@ function biBFS (source, target, adjList) {
                 }
             }
         }
+        return false;
     }
 
     // advance the smaller queue level by level, until we see a node thats visited by both

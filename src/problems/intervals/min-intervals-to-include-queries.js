@@ -5,7 +5,7 @@ import { MinPriorityQueue } from "datastructures-js";
 /*
     Plot entry, exit and queries on the lines
 
-    make faster
+    TODO: make faster
 */
 
 function getSize([start, end]) {
