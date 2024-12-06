@@ -1,6 +1,7 @@
 import { countGoodNumbers } from "./count-good-numbers";
 import { checkHappyNumber } from "./happy-number";
 import { minStraightLines } from "./min-straight-lines-to-connect-points";
+import { multiplyStrings } from "./multiply-strings";
 import { nthFibonacci } from "./nth-fibonacci-matrix-expo";
 import { plusOne } from "./plus-one";
 import { pow } from "./power-function";
@@ -13,3 +14,4 @@ import { spiralOrder } from "./spiral-traversal";
 // console.log(plusOne([9,9,9]));
 // console.log(spiralOrder([[2,5,8],[4,0,-1]]))
 // console.log(pow(4, 3));
+// console.log(multiplyStrings('123', '456'));
