@@ -28,4 +28,4 @@ import { xorOfAllSubarrays } from "./xor-of-all-subarrays";
 // console.log(singleNumber3([1,2,1,3,2,5]));
 // console.log(stringPowerSet('abc'));
 // console.log(xorOfAllSubarrays([3, 5, 2, 4, 6]));
-console.log(bitwiseAndInRange(6,7));
+// console.log(bitwiseAndInRange(6,7));

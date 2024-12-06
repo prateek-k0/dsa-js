@@ -2,7 +2,8 @@
     nth fibonacci with matrix exponentiation
     https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/#using-matrix-exponentiation-ologn-time-and-ologn-space
 
-    To find the Nth Fibonacci number we need to multiple transformation matrix (n-1) times, the matrix equation for the Fibonacci sequence looks like:
+    To find the Nth Fibonacci number we need to multiple transformation matrix (n-1) times,
+    the matrix equation for the Fibonacci sequence looks like:
     let matrixA =
     [1, 1]
     [1, 0]

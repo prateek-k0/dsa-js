@@ -28,6 +28,8 @@ export function bitwiseAndInRange(l, r) {
         const msbl = getMostSignificantBit(l);
         const msbr = getMostSignificantBit(r);
         if(msbl !== msbr) break;
+        // if msbs of l and r are at the same position, then its guaranteed that elements between
+        // l and r will have have MSB at that same position
         // else
         res += (1 << msbl); // add current bit to solution
         // unset this bit in l and r
