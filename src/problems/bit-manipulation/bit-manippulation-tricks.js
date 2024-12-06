@@ -27,6 +27,11 @@ n >>> k; //rightshift by k bits
 //for n >= 0:
 n > 0 ? (!(n & (n-1))) : 0; 
 
+// mask with alternate 1's and 0's
+mask1 = 0x55555555; // 01010101010101010101010101010101
+mask2 = 0xaaaaaaaa; // 10101010101010101010101010101010
+mask1 === (mask2 >>> 1);
+
 //position of leftmost setbit, most significant set bit
 function getLeftmostBit(n)
 {

@@ -1,5 +1,6 @@
 import { TrieIterative } from "./trie-intro";
 import { TrieWithWildcard } from "./trie-search-with-wildcard";
+import { wordSearch2 } from "./word-search-2";
 
 
 // const trie = new TrieIterative();
@@ -13,3 +14,5 @@ import { TrieWithWildcard } from "./trie-search-with-wildcard";
 // trie.addWord('mad');
 // trie.addWord('pad');
 // console.log(trie.search('b..'), trie.search('....'));
+
+console.log(wordSearch2([["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], ["oath","pea","eat","rain"]))
