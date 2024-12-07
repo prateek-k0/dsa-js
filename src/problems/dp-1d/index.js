@@ -19,4 +19,4 @@ import { wordBreakBottomUp } from "./word-break";
 // console.log(maxSubarrayProduct([2,3,-2,4]));
 // console.log(wordBreakBottomUp('applepenapple', ["apple","pen"]));
 // console.log(longestValidParenthesesSubstrings(")()())"));
-console.log(isSubsequence("abc", "aewfyjgbsADASDc"));
+// console.log(isSubsequence("abc", "aewfyjgbsADASDc"));
