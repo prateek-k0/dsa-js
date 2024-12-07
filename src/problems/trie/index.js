@@ -1,3 +1,4 @@
+import { minExtraChars } from "./extra-chars-in-a-string";
 import { TrieIterative } from "./trie-intro";
 import { TrieWithWildcard } from "./trie-search-with-wildcard";
 import { wordSearch2 } from "./word-search-2";
@@ -15,4 +16,5 @@ import { wordSearch2 } from "./word-search-2";
 // trie.addWord('pad');
 // console.log(trie.search('b..'), trie.search('....'));
 
-console.log(wordSearch2([["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], ["oath","pea","eat","rain"]))
+// console.log(wordSearch2([["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], ["oath","pea","eat","rain"]))
+// console.log(minExtraChars('leetscode', ["leet","leetcode"]));
