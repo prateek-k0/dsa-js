@@ -11,11 +11,18 @@
 
     l = min size of the bag, 1 (since bagSize is always positive, non-zero)
     r = max size of the bag, max(input bags)
+
+    At every iteration of binary search, we add operations for bags greater than allowed bag size
+    at that iteration.
+    Ops = (arr[i] - 1) / bucket-size
+    we do arr[i] - 1, instead of arr[i], since for odd numbers, it may result in bagsizes of
+    bucket-size & bucket-size + 1, to not let that happen, we subtract 1 from each element and then
+    try dividing the bag
 */
 function countOps(arr, bucketSize) {
     let totalOps = 0;
     for(const num of arr) {
-        // check the editorial for why we do num - 1: https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/editorial/
+        // check the editorial for why we do num - 1: 
         totalOps += Math.floor((num - 1) / bucketSize);
     }
     return totalOps;
