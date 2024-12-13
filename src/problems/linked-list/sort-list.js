@@ -1,7 +1,4 @@
-/*
-Merge 2 sorted lists
-https://leetcode.com/problems/merge-two-sorted-lists/
-*/
+// https://leetcode.com/problems/sort-list
 
 function merge2SortedLists(list1, list2) {
     if(list1 === null && list2 === null) return null;
@@ -35,4 +32,25 @@ function merge2SortedLists(list1, list2) {
         head = head.next;
     }
     return start.next;
+};
+export function sortList(head) {
+    if(head === null) return head;
+    function divideAndConquer(arr, l, r) {
+        if(l < r) {
+            let m = Math.floor((l + r) / 2);
+            let leftList = divideAndConquer(arr, l, m);
+            let rightList = divideAndConquer(arr, m+1, r);
+            return merge2SortedLists(leftList, rightList);
+        } else {    
+            return arr[l];
+        }
+    }
+    const nodeArr = [];
+    for(let curr = head; curr !== null;) {
+        let next = curr.next;
+        curr.next = null;
+        nodeArr.push(curr);
+        curr = next;
+    }
+    return divideAndConquer(nodeArr, 0, nodeArr.length - 1);
 };

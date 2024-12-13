@@ -45,7 +45,7 @@ export function distributeCandy(ratings) {
             i++;
         }
 
-        totalCandies -= Math.min(up, down); //Keep only the higher peak
+        totalCandies -= Math.min(up, down); //Keep only the higher number
     }
     return totalCandies;
 }
