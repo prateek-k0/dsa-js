@@ -4,6 +4,7 @@ import { cheapestFlightWithAtmostKStops } from "./cheapest-flights-with-atmost-k
 import { checkIfPathExists } from "./check-if-path-exists";
 import { courseScheduleTopo } from "./course-schedule";
 import { disconnectPathByFlipppingOnce } from "./disconnect-path";
+import { evaluateDivision } from "./evaluate-division";
 import { islandsAndTreasure } from "./islands-and-tresure";
 import { jumpGame4 } from "./jump-game-4";
 import { longestIncreasingPathMatrix } from "./longest-increasing-path-in-matrix";
@@ -17,6 +18,7 @@ import { pacificAtlanticWaterFlow } from "./pacific-atlantic-water-flow";
 import { findItinerary } from "./reconstruct-itinerary";
 import { rottenOranges } from "./rotten-oranges";
 import { shortestBridge } from "./shortest-bridge";
+import { snakesAndLadders } from "./snakes-and-ladders";
 import { surroundedRegions } from "./surrounded-regions";
 import { swimInRisingWater, swimInRisingWater2 } from "./swim-in-rising-water";
 import { wordLadder } from "./word-ladder";
@@ -64,3 +66,8 @@ import { wordLadderBiBFS } from "./word-ladder-bi-bfs";
 // console.log(swimInRisingWater2([[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]))
 // console.log(alienDict(["wrt","wrf","er","ett","rftt","te"]));
 // console.log(longestIncreasingPathMatrix([[9,9,4],[6,6,8],[2,1,1]]));
+// console.log(evaluateDivision([["x1","x2"],["x2","x3"],["x3","x4"],["x4","x5"]], 
+//     [3.0,4.0,5.0,6.0],
+//     [["x1","x5"],["x5","x2"],["x2","x4"],["x2","x2"],["x2","x9"],["x9","x9"]]
+// ))
+console.log(snakesAndLadders([[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1],[-1,35,-1,-1,13,-1],[-1,-1,-1,-1,-1,-1],[-1,15,-1,-1,-1,-1]]))

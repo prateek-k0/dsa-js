@@ -31,7 +31,7 @@ export function minIntervalToIncludeQuery(intervals, queries) {
         // remove those intervals from the queue which are before the current query
         // it is guranteed that these queries removed will not be used by later elements,
         // since both queries and intervals are sorted
-        // intervals[0][1] < q implies that the interval at the front liest before current query
+        // intervals[0][1] < q implies that the interval at the front lies before current query
         while (intervals.length > 0 && intervals[0][1] < q) {
             intervals.shift();
         }
