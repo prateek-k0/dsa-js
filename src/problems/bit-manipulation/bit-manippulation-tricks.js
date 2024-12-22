@@ -27,6 +27,9 @@ n >>> k; //rightshift by k bits
 //for n >= 0:
 n > 0 ? (!(n & (n-1))) : 0; 
 
+// largest power of 2 that divides a number
+(n & (~(n - 1)));
+
 // mask with alternate 1's and 0's
 mask1 = 0x55555555; // 01010101010101010101010101010101
 mask2 = 0xaaaaaaaa; // 10101010101010101010101010101010

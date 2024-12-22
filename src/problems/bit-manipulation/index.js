@@ -11,7 +11,7 @@ import { reverseInteger } from "./reverse-a-number";
 import { reverseBits } from "./reverse-bits";
 import { setBitsInRange } from "./set-bits-in-a-range";
 import { singleNumber } from "./single-number";
-import { singleNumber3 } from "./single-number-3";
+import { singleNumber2 } from "./single-number-2";
 import { xorOfAllSubarrays } from "./xor-of-all-subarrays";
 
 // console.log(singleNumber([2,3,4,4,3,1,1]));
@@ -29,3 +29,4 @@ import { xorOfAllSubarrays } from "./xor-of-all-subarrays";
 // console.log(stringPowerSet('abc'));
 // console.log(xorOfAllSubarrays([3, 5, 2, 4, 6]));
 // console.log(bitwiseAndInRange(6,7));
+// console.log(singleNumber2([1,1,1,2,2,2,3,3,3,4]));

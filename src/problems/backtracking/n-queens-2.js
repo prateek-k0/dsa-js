@@ -1,4 +1,4 @@
-// https://leetcode.com/problems/n-queens/description/
+// https://leetcode.com/problems/n-queens-ii/
 
 /*
     traverse to each row, and check in which column we can place the queen for that row
@@ -9,13 +9,12 @@ export function nQueens(n) {
     // for diagonals
     const negativeDiag = new Set();
     const positiveDiag = new Set();
-    const res = [];
-    const board = new Array(n).fill(0).map((r) => new Array(n).fill('.'));
+    let count = 0;
 
     const dfs = (r) => {
         // success condition, on placing queens in all rows
         if (r === n) {
-            res.push(board.map((row) => row.join('')));
+            count++;
         }
         // traverse each col in this row and see if we can place a queen anywhere
         for (let c = 0; c < n; c++) {
@@ -31,7 +30,6 @@ export function nQueens(n) {
             col.add(c);
             negativeDiag.add(r - c);
             positiveDiag.add(r + c);
-            board[r][c] = 'Q';
 
             // go to next row
             dfs(r+1);
@@ -40,10 +38,9 @@ export function nQueens(n) {
             col.delete(c);
             negativeDiag.delete(r - c);
             positiveDiag.delete(r + c);
-            board[r][c] = '.';
         }
     }
 
     dfs(0);
-    return res;
+    return count;
 }
